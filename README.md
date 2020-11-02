@@ -84,7 +84,7 @@
 								height: 5,
 								curveSegments: 4,
 								font: font,
-								style: "italics",
+								style: "normal",
 								bevelEnabled: true,
 								bevelThickness: 2, 
 								bevelSize: 1, 
