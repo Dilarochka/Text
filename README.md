@@ -1,14 +1,14 @@
 
 <html lang="en">
 	<head>
-		<title>three.js webgl - геометрические фигуры</title>
+		<title>three.js webgl - 3D-текст </title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 		<link type="text/css" rel="stylesheet" href="https://threejs.org/examples/main.css" />
 	</head>
 	<body>
 		<div id="info">
-			Трехмерные фигуры
+			3D-текст 
 		</div>
 
 		<script type="module">
