@@ -1,15 +1,16 @@
 
-<!DOCTYPE html>
+
+<p>&lt;!DOCTYPE html&gt;</p>
 <html lang="en">
 	<head>
 		<title>three.js webgl - геометрические фигуры</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-		<link type="text/css" rel="stylesheet" href="https://threejs.org/examples/main.css">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+		<link type="text/css" rel="stylesheet" href="https://threejs.org/examples/main.css" />
 	</head>
 	<body>
 		<div id="info">
-			3D-текст
+			Трехмерные фигуры
 		</div>
 
 		<script type="module">
@@ -73,15 +74,15 @@
 
 				// scene objects
 				var loader = new THREE.FontLoader();
-				loader.load( 'fonts/Arial_Regular.json', function ( response ) {
+				loader.load( 'fonts.json', function ( response ) {
 
 					font = response;
 
-					var text = "Hello";
+					var text = "Ахмадишина Д.Р. Группа М-31с";
 					var text_geometry = new THREE.TextGeometry( text, 
 							{
-								size: 24,
-								height: 5,
+								size: 6,
+								height: 3,
 								curveSegments: 4,
 								font: font,
 								style: "normal",
@@ -90,7 +91,7 @@
 								bevelSize: 1, 
 							});
 					
-					var text_Material = new THREE.MeshPhongMaterial( { color: 0x62254a } );
+					var text_Material = new THREE.MeshPhongMaterial( { color: 0x66ff00 } );
 					var text3D = new THREE.Mesh( text_geometry, text_Material );
 					
 					text_geometry.computeBoundingBox();
