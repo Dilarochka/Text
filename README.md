@@ -89,7 +89,7 @@
 								bevelSize: 1, 
 							});
 					
-					var text_Material = new THREE.MeshPhongMaterial( { color: 0x66ff00 } );
+					var text_Material = new THREE.MeshPhongMaterial( { color: 0xF4A460 } );
 					var text3D = new THREE.Mesh( text_geometry, text_Material );
 					
 					text_geometry.computeBoundingBox();
