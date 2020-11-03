@@ -66,7 +66,7 @@
 
 				// scene itself
 				scene = new THREE.Scene();
-				scene.background = new THREE.Color( 0xD3D3D3 );
+				scene.background = new THREE.Color( 0x66CDAA );
 
 				scene.add( ambientLight );
 				scene.add( light );
