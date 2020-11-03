@@ -1,6 +1,4 @@
 
-
-<p>&lt;!DOCTYPE html&gt;</p>
 <html lang="en">
 	<head>
 		<title>three.js webgl - геометрические фигуры</title>
@@ -66,7 +64,7 @@
 
 				// scene itself
 				scene = new THREE.Scene();
-				scene.background = new THREE.Color( 0x66CDAA );
+				scene.background = new THREE.Color( 0x808080 );
 
 				scene.add( ambientLight );
 				scene.add( light );
